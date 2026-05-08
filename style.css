@@ -1,0 +1,130 @@
+        body {
+            font-family: Arial, sans-serif;
+        background-image: url(https://i.pinimg.com/1200x/5d/7d/7c/5d7d7c2b69572373f95d61a81f814bd5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+        }
+        /* Cabeçalho com flex */
+        .cabecalho {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(90deg, #ff0055, #ff7700);
+            color: white;
+            padding: 15px 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+        }
+        /* Conteúdo principal */
+        .principal {
+            color: #e11c5b;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .conteudo-flex {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .artigo {
+            flex: 2;
+            min-width: 250px;
+            background-color: rgba(255, 255, 255, 0.171);
+        }
+        .sidebar {
+            opacity: 45%;
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        /* Cards */
+        .cards {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .card {
+            box-sizing: border-box;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: 0.3s;
+            opacity: 100%;
+        }
+        .card:hover img {
+            height: 250px;
+            object-fit: contain;
+            opacity: 100%;
+        }
+        /* Rodapé */
+        .rodape {
+            background: linear-gradient(90deg, #ff0055, #ff7700);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        /* Formulário */
+        .formulario {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f921; 
+            border-radius: 5px;
+            color: white;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #205f8a;
+        }
+        .links {
+            color: rgba(255, 0, 242, 0.568);
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .links:hover {
+            color: rgba(165, 11, 157, 0.568);
+        }

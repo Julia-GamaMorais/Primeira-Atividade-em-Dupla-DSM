@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Projeto de Dupla</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">Forza Horizon</div>
+        <div class="menu">
+            <a href="#">Início</a>
+            <a href="#">Carros</a>
+            <a href="#">Eventos</a>
+            <a href="#">Contato</a>
+        </div>
+    </header>
+
+    <div class="boto">
+        <button onclick="alert('Bem-vindo ao Forza Horizon!')">
+            Bem-vindo
+        </button>
+    </div>
+
+    <main class="container">
+        <div class="conteudo-flex">
+            <div class="artigo">
+                <h1 class="principal">Bem-vindo A Forza Horizon Area</h1>
+                <h2>Ação de direção ilimitada e divertida</h2>
+                <p>Sua Aventura Ultimate Horizon está à sua espera! Explore as vibrantes e sempre evolutivas paisagens de mundo aberto <br> em centenas dos maiores carros do mundo — agora completos com mais de 40 atualizações de conteúdo que apresentam <br> mais carros, corridas, recursos e experiências de jogo.</p>
+            </div>
+        
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Forza Horizon</h3>
+                <p><a href="https://www.xbox.com/pt-BR/games/store/forza-horizon/bs9fslk6b1rr" class="links">Obtenha Agora</a></p>
+                <img src="https://i.pinimg.com/736x/53/d4/3d/53d43d8210e95b0475fc2c3ee167294f.jpg">
+            </div>
+            <div class="card">
+                <h3>Forza Horizon 2</h3>
+                <p><a href="https://lista.mercadolivre.com.br/forza-horizon-2" class="links">Obtenha Agora</a></p>
+                <img src="https://i.pinimg.com/736x/11/00/e3/1100e31b532e0b3d5f6d40cd98917dd3.jpg">
+            </div>
+            <div class="card">
+                <h3>Forza Horizon 3</h3>
+                <p><a href="https://www.xbox.com/pt-BR/games/store/forza-horizon-3/9nblggh1z7tw" class="links">Obtenha Agora</a></p>
+                <img src="https://i.pinimg.com/1200x/7a/06/9a/7a069a0626b5ee92bed3b0232aa75a39.jpg">
+            </div>
+            <div class="card">
+                <h3>Forza Horizon 4</h3>
+                <p><a href="https://www.xbox.com/pt-BR/games/store/forza-horizon-4/9PNQKHFLD2WQ?msockid=083a84a4983765f804d6938799996480" class="links">Obtenha Agora</a></p>
+                <img src="https://i.pinimg.com/1200x/e9/61/d4/e961d4b330a114799f0b47fa05ab1db6.jpg">
+            </div>
+            <div class="card">
+                <h3>Forza Horizon 5</h3>
+                <p><a href="https://www.xbox.com/pt-br/games/forza-horizon-5?ef_id=_k_EAIaIQobChMIxNyL9pGUlAMVJkJIAB1TaCx5EAAYASAAEgKCZfD_BwE_k_&OCID=AIDcmmaigrfm8i_SEM__k_EAIaIQobChMIxNyL9pGUlAMVJkJIAB1TaCx5EAAYASAAEgKCZfD_BwE_k_&gad_source=1&gad_campaignid=17609032559&gbraid=0AAAAADcJh_vgVun1eNa4CKpqRx3Xi76hq&gclid=EAIaIQobChMIxNyL9pGUlAMVJkJIAB1TaCx5EAAYASAAEgKCZfD_BwE#purchaseoptions" class="links">Obtenha Agora</a></p>
+                <img src="https://i.pinimg.com/736x/ad/6e/bc/ad6ebcb62cf3f832fbc65cfccf00b4c0.jpg">
+            </div>
+            <div class="card">
+                <h3>Forza Horizon  6</h3>
+                <p><a href="https://www.xbox.com/pt-BR/games/forza-horizon-6#purchaseoptions" class="links">Pré encomenda</a></p>
+                <img src="https://i.pinimg.com/1200x/d0/00/b6/d000b6da51108c40279ab161ac67aa01.jpg">
+            </div>
+        </div>
+
+        <div class="formulario">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <button onclick="perguntarNome()">Digite seu nome</button>
+
+    <script>
+        function perguntarNome() {
+        let nome = prompt("Qual é o seu nome?");
+        if (nome) {
+        alert("Bem-vindo, " + nome + ", primeira vez em Forza Horizon?");}
+        }
+    </script>
+
+    <footer class="rodape">
+        &copy; 2026 - Julia Morais, Kaique Ribeiro
+    </footer>
+</body>
+</html>
